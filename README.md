@@ -1,4 +1,4 @@
-#Ruby Language Server plugin git Eclipse Che Theia editor
+# Ruby Language Server plugin git Eclipse Che Theia editor
 
 ## Requirement
 Require a self-hosted che plugin registry
