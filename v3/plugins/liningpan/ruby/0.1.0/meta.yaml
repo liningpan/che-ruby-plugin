@@ -1,0 +1,19 @@
+apiVersion: v2
+publisher: liningpan
+name: ruby
+version: 0.1.0
+type: VS Code extension
+displayName: Language Support for Ruby 2.6
+title: Language Support for Ruby
+description: Ruby Language Server provided by solargraph
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+category: Language
+repository: https://github.com/liningpan/che-ruby-plugin.git
+firstPublicationDate: "2020-08-21"
+spec:
+  containers:
+    - image: "docker.io/liningpan/che-ruby-sidecar:2.6"
+      name: vscode-ruby
+      memoryLimit: "1Gi"
+  extensions:
+    - https://open-vsx.org/api/castwide/solargraph/0.22.0/file/castwide.solargraph-0.22.0.vsix
