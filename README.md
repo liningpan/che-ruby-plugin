@@ -10,9 +10,9 @@ Add following configuration to workspace settings `settings.json`
     "solargraph.bundlerPath": "/usr/local/bin/bundle",
     "solargraph.commandPath": "/usr/local/bundle/bin/solargraph"
 ```
-You may also need to run 
+You may also need to run following commands in the sidecar container
 ```
 bundle install
 solargraph bundle
 ```
-to setup solargraph documentation
+to setup solargraph documentation after spinning up a new workspace.
