@@ -18,7 +18,5 @@ spec:
       volumes:
       - mountPath: "/home/theia/.solargraph"
         name: solargraph
-      - mountPath: "/home/theia/.gem"
-        name: gem
   extensions:
     - https://open-vsx.org/api/castwide/solargraph/0.22.0/file/castwide.solargraph-0.22.0.vsix
