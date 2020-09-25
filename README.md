@@ -1,4 +1,6 @@
-# Ruby Language Server plugin for Eclipse Che Theia editor
+# Ruby Language Server plugin for Eclipse Che
+
+Using `solargraph` vscode plugin to provide Ruby Language Server support for the Eclipse Che editor. 
 
 The sidecar container is now maintained by the Che plugin group [che-sidecar-ruby](https://github.com/che-dockerfiles/che-sidecar-ruby.git)
 
