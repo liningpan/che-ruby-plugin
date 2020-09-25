@@ -1,4 +1,4 @@
-# Ruby Language Server plugin git Eclipse Che Theia editor
+# Ruby Language Server plugin for Eclipse Che Theia editor
 
 The sidecar container is now maintained by the Che plugin group [che-sidecar-ruby](https://github.com/che-dockerfiles/che-sidecar-ruby.git)
 The plugin registry entry is merged into [che-plugin-registry](https://github.com/eclipse/che-plugin-registry.git)
