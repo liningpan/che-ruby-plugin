@@ -1,14 +1,16 @@
 # Ruby Language Server plugin git Eclipse Che Theia editor
 
-## Requirement
-Require a self-hosted che plugin registry
+The sidecar container is now maintained by the Che plugin group [che-sidecar-ruby](https://github.com/che-dockerfiles/che-sidecar-ruby.git)
+The plugin registry entry is merged into [che-plugin-registry](https://github.com/eclipse/che-plugin-registry.git)
 
-## Warning
-Add following configuration to workspace settings `settings.json`
-
+Add following settings to devfile
 ```
-    "solargraph.bundlerPath": "/usr/local/bin/bundle",
-    "solargraph.commandPath": "/usr/local/bundle/bin/solargraph"
+components:
+  - id: castwide/solargraph/latest
+    type: chePlugin
+    preferences:
+      solargraph.bundlerPath: /usr/local/bin/bundle
+      solargraph.commandPath: /usr/local/bundle/bin/solargraph
 ```
 You may also need to run following commands in the sidecar container
 ```
